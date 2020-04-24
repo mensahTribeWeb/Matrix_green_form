@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>surveyForm</title>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Mensah Tribe <span>Web Dev </span></h1>
+            <h2>Survey Form</h2>
+            <p id="description"><em>Thank you for taking the time to help us improve our platform</em></p>
+        </header>
+        <main class="wrapper">
+           
+            <form class="survey-form">
+                <div class="contact">
+                    <h3>Mensah Tribe <span>Web Dev</span></h3>
+                    <ul>
+                        <li>850 w eastwood</li>
+                        <li>773-312-3121</li>
+                        <li>850@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="form-row">
+                    <p>
+                    <label id="name-label" >Name:</label><br>
+                    <input id="name" type="text" value="" placeholder="Please enter your name" required>
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p>
+                    <label id="email-label">Email:</label><br>
+                    <input id="email"type="email" value="" placeholder="Please enter your email" required>
+                    </p>  
+                </div>
+                <div class="form-row">
+                    <p>
+                    <label id="label-number">Age: <span class="suggestion">(optional)</span></label><br>
+                    <input id="number"type="number" value="" placeholder="Age" min="7" max="99">
+                    </p>  
+                </div>
+                <div class="form-row">
+                    <p>
+                    <label id="dropdown-label type">Where's your dream work location ?</label><br>
+                    <select id="dropdown" name="location" >
+                    <option value="chi">Chicago</option>
+                    <option value="ny">New York </option>
+                    <option value="ca">San Francisco</option>
+                    <option value="fr">Paris</option>
+                    <option value="gh">Accra</option>
+                    </select>
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p>
+                    <label id="radio-label type">What method helps you learn the material ?</label><br>
+                    <label class="radio"><input type="radio" name="method" value="online-bootcamps"/>Online bootcamps</label><br>
+                    <label class="radio"><input type="radio" name="method" value="books">Books</label><br>
+                    <label class="radio"><input type="radio" name="method" value="youtube">YouTube</label><br>
+                    <label class="radio"><input type="radio" name="method" value="onsite">Onsite</label><br>
+                    <label class="radio"><input type="radio" name="method" value="podcast">Podcasts</label><br>
+                    <label class="radio"><input type="radio" name="method" value="MDN">MDN</label><br>
+                    <label class="radio"><input type="radio" name="method" value="W3">W3</label><br>
+                    </p>
+                </div>    
+                <div class="form-row">
+                    <p class="tool">
+                        <label>Which programing languages/ frameworks have you studied? <span class="suggestion">(check all that apply)</span></label><br>
+                        <label ><input type="checkbox" id="prefer" value="html">HTML</label><br>
+                        <label ><input type="checkbox" id="prefer" value="css">CSS</label><br>
+                        <label ><input type="checkbox" id="prefer" value="javascript">Javascript</label><br>
+                        <label ><input type="checkbox" id="prefer" value="jquery">Jquery</label><br>
+                        <label ><input type="checkbox" id="prefer" value="python">Python</label><br>
+                        <label ><input type="checkbox" id="prefer" value="C++">C++</label><br>
+                        <label ><input type="checkbox" id="prefer" value="node.js">Node.js</label><br>
+                    </p>
+                </div>    
+                <div class="form-row">
+                    <p class="button">
+                        <label>Any comments or suggestions</label><br>
+                        <textarea type="text" rows="5"  placeholder="Enter your comment here..." required>
+                        </textarea><br>
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="button">
+                        <button>
+                        submit
+                        </button>
+                    </p>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
+                    
+     
+                        
+           
